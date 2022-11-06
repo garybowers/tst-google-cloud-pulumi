@@ -1,0 +1,15 @@
+name: ${PROJECT}
+description: ${DESCRIPTION}
+template:
+  description: Pulumi YAML example using the Google Cloud classic API that creates
+    a new Google Cloud project inside a Google Cloud organization.
+  config:
+    billingAccount:
+      description: Billing account id.
+    name:
+      description: A human-readable name for your project.
+    organizationId:
+      description: The Google Cloud organization ID in which to create the Google
+        Cloud project.
+    projectId:
+      description: A globally unique identifier for your project.
