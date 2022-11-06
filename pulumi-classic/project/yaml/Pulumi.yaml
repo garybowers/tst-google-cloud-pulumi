@@ -1,5 +1,6 @@
 name: ${PROJECT}
 description: ${DESCRIPTION}
+runtime: yaml
 template:
   description: Pulumi YAML example using the Google Cloud classic API that creates
     a new Google Cloud project inside a Google Cloud organization.
